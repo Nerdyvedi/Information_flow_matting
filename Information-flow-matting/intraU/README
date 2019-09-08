@@ -1,0 +1,8 @@
+Used nanoflann(https://github.com/jlblancoc/nanoflann), C++11 header-only library for building KD-Trees of datasets - BSD license
+
+# Description of files - 
+2 files of nanoflann included in the project as it is -
+1. nanoflann.hpp
+2. KDTreeVectorOfVectorsAdaptor.h
+
+3. intraU.cpp - computes the feature vectors of pixels for input to KD tree. Does further weight computation as mentioned in the paper. 
